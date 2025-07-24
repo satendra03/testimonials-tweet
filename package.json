@@ -1,0 +1,31 @@
+{
+  "name": "testimonials-tweet",
+  "version": "1.0.0",
+  "description": "Automates the process of merging pull requests after verification and includes your testimonials from tweets.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satendra03/testimonials-tweet.git"
+  },
+  "author": "Satendra Kumar Parteti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/satendra03/testimonials-tweet/issues"
+  },
+  "homepage": "https://github.com/satendra03/testimonials-tweet#readme",
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "firebase": "^12.0.0",
+    "node-cron": "^4.2.1",
+    "sentiment": "^5.0.2",
+    "twitter-api-v2": "^1.24.0"
+  }
+}
